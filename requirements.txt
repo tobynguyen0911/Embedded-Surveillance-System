@@ -1,0 +1,5 @@
+numpy
+matplotlib
+flask
+imutils
+opencv-contrib-python

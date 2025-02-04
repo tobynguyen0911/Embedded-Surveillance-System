@@ -1,0 +1,9 @@
+[Unit]
+Description=OpenCV-based surveillance system, also tunnels to remote server
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/startup.sh
+
+[Install]
+WantedBy=multi-user.target
